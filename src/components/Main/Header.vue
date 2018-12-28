@@ -11,56 +11,38 @@
             <div class="c-header__inner-header">
               <div class="c-header__avatar">
                 <div class="a-header c-avatar">
-                  <img class="c-avatar__img" src="@/assets/images/header/kdev.jpg" alt>
+                  <img class="c-avatar__img" v-bind:src="avatar" alt>
                 </div>
               </div>
             </div>
           </header>
           
-          
           <div class="o-section__content c-header__content t-section__content">
             <div class="c-header__inner-content">
               <div class="c-header__top">
+
                 <div class="c-header__brand">
                   <div class="c-brand">
                     <h1 class="c-brand__title t-title">
                       <span class="c-brand__sizer">
-                        <span class="a-header c-brand__first-word t-title__first-word">Desmond</span>
-                        <span class="a-header c-brand__second-word t-title__second-word">Rambowski</span>
+                        <span class="a-header c-brand__first-word t-title__first-word">{{ firstName }}</span>
+                        <span class="a-header c-brand__second-word t-title__second-word">{{ lastName }}</span>
                       </span>
                     </h1>
                     <h2 class="a-header c-brand__sub-title t-sub-title">
-                      <span class="c-brand__sizer">Web Developer &amp; Front-end Expert</span>
+                      <span class="c-brand__sizer">{{ title }}</span>
                     </h2>
                   </div>
                 </div>
                 
                 <ul class="c-header__social-buttons c-social-buttons">
-                  <li class="a-header">
+                  <li class="a-header" v-for="(socialAccount, index) in socialAccounts" v-bind:key="index">
                     <a
-                      href="https://www.facebook.com/RuvenThemes/"
+                      v-bind:href="socialAccount.link"
                       target="_blank"
                       class="c-social-button t-social-button"
                     >
-                      <i class="fa fa-lg fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li class="a-header">
-                    <a
-                      href="https://dribbble.com/"
-                      target="_blank"
-                      class="c-social-button t-social-button"
-                    >
-                      <i class="fa fa-lg fa-dribbble"></i>
-                    </a>
-                  </li>
-                  <li class="a-header">
-                    <a
-                      href="https://twitter.com/_Ruven"
-                      target="_blank"
-                      class="c-social-button t-social-button"
-                    >
-                      <i class="fa fa-lg fa-twitter"></i>
+                      <i v-bind:class="socialAccount.className"></i>
                     </a>
                   </li>
                 </ul>
@@ -71,63 +53,44 @@
                 <hr class="a-header c-header__contact-divider">
 
                 <div class="o-grid">
-                  <div class="o-grid__col-md-3 o-grid__col-sm-6">
+
+                  <div class="o-grid__col-md-3 o-grid__col-sm-6" v-for="(info, index) in otherInfo" v-bind:key="index">
                     <div class="a-header o-content">
                       <div class="o-content__body">
-                        <h4>Location</h4>
-                        <address>Portland, OR</address>
+                        <h4>{{ info.item }}</h4>
+                        <p v-for="(value, index) in info.values" v-bind:key="index">{{ value }}</p>
                       </div>
-                    </div>                    
-                  </div>
-                  
-                  <div class="o-grid__col-md-3 o-grid__col-sm-6">
-                    <div class="a-header o-content">
-                      <div class="o-content__body">
-                        <h4>Phone</h4>
-                        <p>534.456.886</p>
-                      </div>
-                    </div>                  
-                  </div>
-                  
-                  <div class="o-grid__col-md-3 o-grid__col-sm-6">
-                    <div class="a-header o-content">
-                      <div class="o-content__body">
-                        <a href="#" target="_blank" class="t-link-container">
-                          <h4>Web</h4>
-                          <p>
-                            <span class="t-link-container__item--blended">ruventhemes.com</span>
-                          </p>
-                        </a>
-                      </div>
-                    </div>                    
-                  </div>
-                  
-                  <div class="o-grid__col-md-3 o-grid__col-sm-6">
-                    <div class="a-header o-content">
-                      <div class="o-content__body">
-                        <a href="#" target="_blank" class="t-link-container">
-                          <h4>Email</h4>
-                          <p>
-                            <span class="t-link-container__item--blended">hello@example.com</span>
-                          </p>
-                        </a>                        
-                      </div>
-                    </div>                    
+                    </div>
                   </div>
 
-                </div>                
+                </div>
+
               </div>
             </div>
           </div>
+
         </div>
       </div>
+      
     </div>
   </section>
 
 </template>
 
 <script>
+import { mapState } from "vuex";
+
 export default {
-  name: "Header"
+  name: "Header",
+  computed: {
+    ...mapState([
+      "avatar",
+      "firstName",
+      "lastName",
+      "title",
+      "socialAccounts",
+      "otherInfo"
+    ])
+  }
 };
 </script>
