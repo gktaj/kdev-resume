@@ -177,5 +177,41 @@ export default {
         content: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales.'
       }
     ]
+  },
+  profiles: {
+    title: 'Profiles',
+    description: 'Busy as usual',
+    profiles: [
+      {
+        icon: "fab fa-lg fa-github",
+        title: 'Github',
+        description: 'All my open source projects for you analyze.'
+      },
+      {
+        icon: "fab fa-lg fa-github",
+        title: 'Github',
+        description: 'All my open source projects for you analyze.'
+      },
+      {
+        icon: "fab fa-lg fa-github",
+        title: 'Github',
+        description: 'All my open source projects for you analyze.'
+      },
+      {
+        icon: "fab fa-lg fa-github",
+        title: 'Github',
+        description: 'All my open source projects for you analyze.'
+      },
+      {
+        icon: "fab fa-lg fa-github",
+        title: 'Github',
+        description: 'All my open source projects for you analyze.'
+      },
+      {
+        icon: "fab fa-lg fa-github",
+        title: 'Github',
+        description: 'All my open source projects for you analyze.'
+      }
+    ]
   }
 }

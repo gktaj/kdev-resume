@@ -43,7 +43,7 @@
 import { mapState } from "vuex";
 
 export default {
-  name: "Skills",
+  name: "Experience",
   computed: {
     ...mapState([
       "experience"
