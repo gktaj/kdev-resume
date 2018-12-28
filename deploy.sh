@@ -23,3 +23,5 @@ git commit -m 'deploy'
 git push -f https://github.com/kdevsoftware/kdev-resume.git master:gh-pages
 
 cd -
+
+rm -rf dist
