@@ -1,14 +1,16 @@
 <template>
   <div class="c-main-container  js-main-container">
-    This is main content
+    <Header />
   </div>
 </template>
 
 <script>
+import Header from "./Header.vue"
+
 export default {
   name: "Main",
-  props: {
-    msg: String
+  components: {
+    Header,
   }
 };
 </script>

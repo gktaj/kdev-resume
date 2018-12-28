@@ -6,9 +6,6 @@
 
 <script>
 export default {
-  name: "PreLoader",
-  props: {
-    msg: String
-  }
+  name: "PreLoader"
 };
 </script>
