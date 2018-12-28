@@ -231,5 +231,47 @@ export default {
         content: 'Lorem ipsum dolor sit amet, justo eget porttitor mauris sit amet felis. Neque id cursus faucibus.'
       }
     ]
+  },
+  portfolio: {
+    title: 'Portfolio',
+    description: 'Here it gets interesting',
+    portfolioes: [
+      {
+        avatar: 'assets/images/portfolio/1_thumb.jpg',
+        link: 'assets/images/portfolio/1_full.jpg',
+        title: 'Musée du Louvre',
+        description: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'       
+      },
+      {
+        avatar: 'assets/images/portfolio/2_thumb.jpg',
+        link: 'assets/images/portfolio/2_full.jpg',
+        title: 'Musée du Louvre',
+        description: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'       
+      },
+      {
+        avatar: 'assets/images/portfolio/3_thumb.jpg',
+        link: 'assets/images/portfolio/3_full.jpg',
+        title: 'Musée du Louvre',
+        description: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'       
+      },
+      {
+        avatar: 'assets/images/portfolio/4_thumb.jpg',
+        link: 'assets/images/portfolio/4_full.jpg',
+        title: 'Musée du Louvre',
+        description: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'       
+      },
+      {
+        avatar: 'assets/images/portfolio/5_thumb.jpg',
+        link: 'assets/images/portfolio/5_full.jpg',
+        title: 'Musée du Louvre',
+        description: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'       
+      },
+      {
+        avatar: 'assets/images/portfolio/6_thumb.jpg',
+        link: 'assets/images/portfolio/6_full.jpg',
+        title: 'Musée du Louvre',
+        description: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'       
+      }
+    ]
   }
 }

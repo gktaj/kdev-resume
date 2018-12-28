@@ -8,6 +8,7 @@
     <Education />
     <Profiles />
     <Awards />
+    <Portfolio />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Experience from "./Experience.vue"
 import Education from "./Education.vue"
 import Profiles from "./Profiles.vue"
 import Awards from "./Awards.vue"
+import Portfolio from "./Portfolio.vue"
 
 export default {
   name: "Main",
@@ -31,7 +33,8 @@ export default {
     Experience,
     Education,
     Profiles,
-    Awards
+    Awards,
+    Portfolio
   }
 };
 </script>
