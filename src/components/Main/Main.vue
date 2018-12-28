@@ -6,7 +6,7 @@
     <Skills />
     <Experience />
     <Education />
-    <Profile />
+    <Profiles />
   </div>
 </template>
 
@@ -17,7 +17,7 @@ import Expertise from "./Expertise.vue"
 import Skills from "./Skills.vue"
 import Experience from "./Experience.vue"
 import Education from "./Education.vue"
-import Profile from "./Profile.vue"
+import Profiles from "./Profiles.vue"
 
 export default {
   name: "Main",
@@ -28,7 +28,7 @@ export default {
     Skills,
     Experience,
     Education,
-    Profile
+    Profiles
   }
 };
 </script>
