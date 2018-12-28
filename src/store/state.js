@@ -213,5 +213,23 @@ export default {
         description: 'All my open source projects for you analyze.'
       }
     ]
+  },
+  awards: {
+    title: 'Awards',
+    description: 'Happy times!',
+    awards: [
+      {
+        title: 'UNICORN DEVELOPER AWARD 2016',
+        content: 'Lorem ipsum dolor sit amet, justo eget porttitor mauris sit amet felis. Neque id cursus faucibus.'
+      },
+      {
+        title: 'UNICORN DEVELOPER AWARD 2016',
+        content: 'Lorem ipsum dolor sit amet, justo eget porttitor mauris sit amet felis. Neque id cursus faucibus.'
+      },
+      {
+        title: 'UNICORN DEVELOPER AWARD 2016',
+        content: 'Lorem ipsum dolor sit amet, justo eget porttitor mauris sit amet felis. Neque id cursus faucibus.'
+      }
+    ]
   }
 }

@@ -48,7 +48,7 @@
 import { mapState } from "vuex";
 
 export default {
-  name: "Profile",
+  name: "Profiles",
   computed: {
     ...mapState([
       "profiles"
