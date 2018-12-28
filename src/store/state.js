@@ -311,5 +311,9 @@ export default {
         logo: 'assets/images/clients/youtube.png'
       }
     ]
+  },
+  footer: {
+    title: 'Contact',
+    description: 'Call me, maybe'
   }
 }

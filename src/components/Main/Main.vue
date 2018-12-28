@@ -10,6 +10,7 @@
     <Awards />
     <Portfolio />
     <Clients />
+    <Footer />
   </div>
 </template>
 
@@ -24,6 +25,8 @@ import Profiles from "./Profiles.vue"
 import Awards from "./Awards.vue"
 import Portfolio from "./Portfolio.vue"
 import Clients from "./Clients.vue"
+import Footer from "./Footer.vue"
+
 
 export default {
   name: "Main",
@@ -37,7 +40,8 @@ export default {
     Profiles,
     Awards,
     Portfolio,
-    Clients
+    Clients,
+    Footer
   }
 };
 </script>
