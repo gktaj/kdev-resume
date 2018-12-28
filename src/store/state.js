@@ -123,5 +123,32 @@ export default {
         title: 'SEO'
       }
     ]
-  }  
+  },
+  experience: {
+    title: 'Experience',
+    description: 'Yes. I\'ve been around',
+    experiences: [
+      {
+        year: '2015 – Present',
+        title: 'UNICORN INCUBATOR INC.',
+        position: 'Senior Interface Designer',
+        location: 'Portland, OR',
+        content: 'Consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.'
+      },
+      {
+        year: '2013 – 2015',
+        title: 'CALIFORNIA DESIGN BUREAU',
+        position: 'Creative Director',
+        location: 'Cupertino, CA',
+        content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis.'
+      },
+      {
+        year: '2010 – 2013',
+        title: 'DREAMLAND CREATIVE',
+        position: 'Front-end Designer',
+        location: 'New York, NY',
+        content: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh.'
+      }
+    ]
+  }
 }
