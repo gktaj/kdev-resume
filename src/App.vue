@@ -7,7 +7,7 @@
 
 <script>
 import PreLoader from "@/components/PreLoader.vue"
-import Main from "@/components/Main.vue"
+import Main from "@/components/Main/Main.vue"
 
 export default {
   name: "app",
