@@ -1,29 +1,17 @@
 # kdev-resume
+This project was built by Vue 3.2.1.
 
-## Project setup
+## Local environment
 ```
-npm install
+$ git clone https://github.com/kdevsoftware/kdev-resume.git
+$ cd kdev-resume
+$ npm install
+$ npm run serve
 ```
+Navigate to `http://localhost:8080/`.
 
-### Compiles and hot-reloads for development
+## Deploying to github page
 ```
-npm run serve
+$ npm run deploy
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Navigate to `https://kdevsoftware.github.io/kdev-resume/`.
