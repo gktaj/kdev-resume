@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <div class="c-preloader js-preloader">
+      <div class="c-preloader__spinner t-preloader__spinner"></div>
+    </div>
+
     <div class="c-main-container js-main-container">
       <section class="o-section o-section--header t-section t-section--header">
         <div class="c-header">
@@ -12,7 +16,7 @@
                 <div class="c-header__inner-header">
                   <div class="c-header__avatar">
                     <div class="a-header c-avatar">
-                      <img class="c-avatar__img" src="assets/images/header/avatar.jpg" alt>
+                      <img class="c-avatar__img" src="./assets/images/header/kdev.jpg" alt>
                     </div>
                   </div>
                 </div>
@@ -25,14 +29,14 @@
                       <div class="c-brand">
                         <h1 class="c-brand__title t-title">
                           <span class="c-brand__sizer">
-                            <span class="a-header c-brand__first-word t-title__first-word">Desmond</span>
+                            <span class="a-header c-brand__first-word t-title__first-word">k</span>
                             <span
                               class="a-header c-brand__second-word t-title__second-word"
-                            >Rambowski</span>
+                            >Developer</span>
                           </span>
                         </h1>
                         <h2 class="a-header c-brand__sub-title t-sub-title">
-                          <span class="c-brand__sizer">Web Developer &amp; Front-end Expert</span>
+                          <span class="c-brand__sizer">Full Stack | Web & Mobile</span>
                         </h2>
                       </div>
                       <!-- /c-brand -->
@@ -41,29 +45,29 @@
                     <ul class="c-header__social-buttons c-social-buttons">
                       <li class="a-header">
                         <a
-                          href="https://www.facebook.com/RuvenThemes/"
+                          href="https://www.facebook.com/"
                           target="_blank"
                           class="c-social-button t-social-button"
                         >
-                          <i class="fa fa-lg fa-facebook"></i>
+                          <i class="fab fa-lg fa-facebook-f"></i>
                         </a>
                       </li>
                       <li class="a-header">
                         <a
-                          href="https://dribbble.com/"
+                          href="https://www.facebook.com/"
                           target="_blank"
                           class="c-social-button t-social-button"
                         >
-                          <i class="fa fa-lg fa-dribbble"></i>
+                          <i class="fab fa-lg fa-facebook-f"></i>
                         </a>
                       </li>
                       <li class="a-header">
                         <a
-                          href="https://twitter.com/_Ruven"
+                          href="https://www.facebook.com/"
                           target="_blank"
                           class="c-social-button t-social-button"
                         >
-                          <i class="fa fa-lg fa-twitter"></i>
+                          <i class="fab fa-lg fa-facebook-f"></i>
                         </a>
                       </li>
                     </ul>
@@ -128,8 +132,8 @@
 
           </div>
         </div>
-        
-      </section>      
+
+      </section>
     </div>
   </div>
 </template>
