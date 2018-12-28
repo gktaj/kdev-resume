@@ -150,5 +150,32 @@ export default {
         content: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh.'
       }
     ]
+  },
+  education: {
+    title: 'Education',
+    description: 'Lazy isn\'t in my vocabulary',
+    educations: [
+      {
+        year: '2008 – 2010',
+        title: 'WEBSTER TECH UNIVERSITY',
+        position: 'Master of Computer Science',
+        location: 'Miami, FL',
+        content: 'Consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh.'
+      },
+      {
+        year: '2003 – 2008',
+        title: 'NINSEI UNIVERSITY',
+        position: 'Bachelor of Computer Science',
+        location: 'Tokyo, Japan',
+        content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero.'
+      },
+      {
+        year: '2000 – 2003',
+        title: 'ACADEMY OF FINE ARTS',
+        position: 'Master of Arts',
+        location: 'Berlin, Germany',
+        content: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Phasellus hendrerit. Pellentesque aaliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales.'
+      }
+    ]
   }
 }
