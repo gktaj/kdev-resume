@@ -273,5 +273,43 @@ export default {
         description: 'Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'       
       }
     ]
+  },
+  clients: {
+    title: 'Clients',
+    description: 'Happy people',
+    clients: [
+      {
+        link: 'http://example.com',
+        logo: 'assets/images/clients/bbc.png'
+      },
+      {
+        link: 'http://example.com',
+        logo: 'assets/images/clients/disney.png'
+      },
+      {
+        link: 'http://example.com',
+        logo: 'assets/images/clients/github.png'
+      },
+      {
+        link: 'http://example.com',
+        logo: 'assets/images/clients/google.png'
+      },
+      {
+        link: 'http://example.com',
+        logo: 'assets/images/clients/html5.png'
+      },
+      {
+        link: 'http://example.com',
+        logo: 'assets/images/clients/kickstarter.png'
+      },
+      {
+        link: 'http://example.com',
+        logo: 'assets/images/clients/vimeo.png'
+      },
+      {
+        link: 'http://example.com',
+        logo: 'assets/images/clients/youtube.png'
+      }
+    ]
   }
 }
