@@ -3,6 +3,7 @@
     <Header />
     <Introduction />
     <Expertise />
+    <Skills />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Header from "./Header.vue"
 import Introduction from "./Introduction.vue"
 import Expertise from "./Expertise.vue"
+import Skills from "./Skills.vue"
 
 export default {
   name: "Main",
   components: {
     Header,
     Introduction,
-    Expertise
+    Expertise,
+    Skills
   }
 };
 </script>

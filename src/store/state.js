@@ -85,5 +85,43 @@ export default {
         content: 'Cras ornare tristique elit lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id.'
       }
     ]
-  }
+  },
+  skills: {
+    title: 'Skills',
+    description: 'Progress bars, anyone?',
+    skills: [
+      {
+        percent: 80,
+        title: 'Photoshop'
+      },
+      {
+        percent: 80,
+        title: 'Illustrator'
+      },
+      {
+        percent: 80,
+        title: 'Git'
+      },
+      {
+        percent: 80,
+        title: 'After Effect'
+      },
+      {
+        percent: 80,
+        title: 'Sketch'
+      },
+      {
+        percent: 80,
+        title: 'CSS3 Animation'
+      },
+      {
+        percent: 80,
+        title: 'PageSpeed Insights'
+      },
+      {
+        percent: 80,
+        title: 'SEO'
+      }
+    ]
+  }  
 }
